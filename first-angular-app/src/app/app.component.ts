@@ -10,5 +10,6 @@ import { HeaderComponent } from './header/header.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'HELLO WORLDS';
+  title: string = 'HELLO WORLDS';
+  imgUrl: string = "https://miro.medium.com/v2/resize:fit:1400/1*xvkF4IfpJ65JyYc_xQm6Lw.png";
 }
