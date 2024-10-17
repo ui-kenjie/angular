@@ -2,3 +2,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .nav {
+        @apply hidden md:flex
+    }
+    .nav-toggler {
+        @apply block md:hidden
+    }
+    .nav-transition {
+        @apply hover:text-blue-300
+    }
+}
